@@ -1,0 +1,90 @@
+/* HIDE DEFAULT WP ERRORS AND NOTIFICATIONS */
+/* .updated, .error {
+  display: none !important;
+} */
+
+/* WRAPPER */
+.message-form-content {
+  width: 1280px;
+}
+#message-editor {
+  width: 1500px;
+}
+#btn-send {
+  float:right;
+  margin-top: 30px;
+}
+
+.inbox {
+  margin-right: 40px;
+  top: 12px;
+  position: relative;
+}
+.inbox-icon {
+color: #2c80b7;
+display: inline-block;
+position: relative;
+}
+
+.form-table td{
+  padding-left: 0px !important;
+}
+
+.inbox-action {
+  cursor: pointer;
+}
+
+input[type="submit"].bold {
+  font-weight: 600;
+}
+
+.button__badge {
+background-color: #e71873;
+border-radius: 50%;
+color: white;
+padding: 0px 10px 0px 10px;
+font-size: 10px;
+position: absolute;
+top: 22px;
+right: -10px;
+}
+
+.settings-table input{
+  width: 100%;
+  padding-top: 3px;
+  margin-top: 5px;
+  color: black;
+  background-color: #d5d7dc;
+}
+.settings-table p {
+  margin-top: 5px;
+}
+.settings-table button {
+  padding: 8px 15px;
+}
+.settings-table th:nth-child(1) {
+  width: 20%;
+}
+.settings-table th:nth-child(2) {
+  width: 70%;
+}
+.settings-table th:nth-child(3) {
+  width: 10%;
+}
+
+.selected-items {    
+  display:inline-block;
+  border: 1px solid #bfbbbb;
+  padding: 0px 2px 0px 5px;
+  border-radius: 5px;
+  margin: 4px 7px 0px 0px;
+}
+.selected-ids {
+  margin-top: 10px;
+  max-width: 1280px;
+}
+.remove {
+  color: #469cdb;
+  cursor: pointer;
+  vertical-align: middle;
+}
